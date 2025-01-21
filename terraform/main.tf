@@ -11,12 +11,12 @@ module "develop-02" {
   }
 
   account_tags = {
-    "Learn Tutorial" = "AFT"
+    "AFT" = "develop-02"
   }
 
   change_management_parameters = {
-    change_requested_by = "HashiCorp Learn"
-    change_reason       = "Learn AWS Control Tower Account Factory for Terraform"
+    change_requested_by = "AFT Controller"
+    change_reason       = "Vending Development Account 02"
   }
 
   custom_fields = {
